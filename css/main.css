@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.navbar-brand {
+    color: #36303C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.nav-item {
+    color: #B2B1B7;
+    font-size: 16px; 
+    font-weight: bold;   
+}
+
+.nav-item:hover {
+    color: #36303C;
+}
+
+.login {
+    color: #B2B1B7;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sign-up-btn {
+    background-color: #2BD1D1;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 110px;
+    height: 40px;
+}
+
+.sign-up-btn:hover {
+    background-color: #9BE3E2;
+}
+
+h1 {
+    color: #36303C;
+    padding-top: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.description {
+    color: #B2B1B7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;  
+}
+
+.get-started-btn {
+    background-color: #2BD1D1;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;    
+    font-weight: 500;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+.get-started-btn:hover {
+    background-color: #9BE3E2;
+}
+
+.shorten-section {
+    background-color: #F0F1F6;
+    margin-top: 25px;
+}
+
+.shorten-container {
+    background-color: #4B406B;
+    min-height: 110px;
+    padding: 40px;
+    border: none;
+    border-radius: 6px;
+}
