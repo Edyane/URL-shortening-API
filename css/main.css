@@ -59,7 +59,7 @@ h1 {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;    
-    font-weight: 500;
+    font-weight: bold;
     width: 150px;
     height: 40px;
     border: none;
@@ -71,14 +71,65 @@ h1 {
 }
 
 .shorten-section {
-    background-color: #F0F1F6;
-    margin-top: 25px;
+    margin-top: 90px;
 }
 
 .shorten-container {
     background-color: #4B406B;
-    min-height: 110px;
+    min-height: 80px;
     padding: 40px;
     border: none;
     border-radius: 6px;
+}
+
+.shorten-btn {
+    background-color: #2BD1D1;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;    
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;    
+}
+
+.shorten-btn:hover {
+    background-color: #9BE3E2;
+}
+
+.form-control {
+    margin-right: 15px;
+}
+
+.copy-btn {
+    background-color: #2BD1D1;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;    
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.copy-btn:hover {
+    background-color: #9BE3E2;
+}
+
+.copied-btn {
+    background-color: #3A3053;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;    
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.test {
+    padding-right: 15px;
 }

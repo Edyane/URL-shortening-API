@@ -22,7 +22,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">                       
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Features</a>
                         </li>
@@ -34,7 +34,7 @@
                         </li>
                     </ul>
                     <span class="navbar-text">
-                        <a class="login" href="#">Login</a>                        
+                        <a class="login" href="#">Login</a>
                     </span>
                     <span class="navbar-text">
                         <button class="sign-up-btn">Sign Up</button>
@@ -47,31 +47,53 @@
     <section>
         <div class="container">
             <div class="row">
-              <div class="col">
-                <h1>More than just shorter links</h1>
-                <p class="description">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
-                <button class="get-started-btn">Get Started</button>
-              </div>
-              <div class="col">
-                <img src="./images/illustration-working.svg" alt="">
-              </div>              
+                <div class="col">
+                    <h1>More than just shorter links</h1>
+                    <p class="description">Build your brand’s recognition and get detailed insights on how your links
+                        are performing.</p>
+                    <button class="get-started-btn">Get Started</button>
+                </div>
+                <div class="col">
+                    <img src="./images/illustration-working.svg" alt="">
+                </div>
             </div>
-          </div>
+        </div>
     </section>
 
-    <section class="shorten-section">
-        <div class="container shorten-container">            
-            <input type="text" id="disabledTextInput" class="form-control" placeholder="Shorten a link here...">               
-        </div>   
+    <section class="container shorten-section">
+        <div class="shorten-container input-group mb-3">
+            <input type="text" class="form-control" placeholder="Shorten a link here...">
+            <div class="input-group-append">
+                <button class="shorten-btn" type="button">Shorten It</button>
+            </div>
+        </div>
     </section>
- 
-    
-        
-    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+    <section class="container">    
+        <div class="alert alert-primary d-flex justify-content-between" role="alert">
+            <p>https://www.frontendmentor.io/</p>
+            <div class="d-flex justify-content-around">
+                <p class="test">hsushaush</p>
+                <button class="copy-btn">Copy</button>
+            </div>
+        </div>
+
+        <div class="alert alert-primary" role="alert">
+            <p>https://twitter.com/frontendmentor</p>
+            <button class="copied-btn">Copied!</button>
+        </div>
+
+        <div class="alert alert-primary" role="alert">
+            https://www.linkedin.com/cpmpany/frontend-mentor
+            <button class="copy-btn">Copy</button>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
