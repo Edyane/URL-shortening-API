@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reset.css">
 </head>
@@ -80,7 +80,7 @@
         </div>
 
         <div class="alert alert-primary" role="alert">
-            <p>https://twitter.com/frontendmentor</p>
+            https://twitter.com/frontendmentor
             <button class="copied-btn">Copied!</button>
         </div>
 
@@ -90,15 +90,33 @@
         </div>
     </section>
 
-    <section>
+    <section class="advanced-section">
         <div class="container text-center">
             <h6>Advanced Statistics</h6>
-            <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
-
-
+            <p class="advanced-paragraph">Track how your links are performing across the web with our advanced statistics dashboard.</p>
+            <div class="container text-justi">
+                <div class="row">
+                    <div class="col">
+                        <img class="brand-recog-image" src="./images/icon-brand-recognition.svg" alt="">
+                        <h5>Brand Recognition</h5>
+                        <p>Boost your brand recognition with each click. Generic links don’t mean a thing.
+                            Branded links help instil confidence in your content.</p>
+                    </div>
+                    <div class="col">                        
+                        <h5>Detailed Records</h5>
+                        <p>Gain insights into who is clicking your links. Knowing when and where people engage
+                            with your content helps inform better decisions.</p>
+                    </div>
+                    <div class="col">
+                        <h5>Fully Customizable</h5>
+                        <p>Improve brand awareness and content discoverability through customizable links,
+                            supercharging audience engagement.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
+    
     <section class="boost-section">
         <div class="text-center">
             <p class="boost-title">Boost your links today</p>
@@ -107,37 +125,37 @@
     </section>
 
     <footer>
-        <div class=" text-center">
+        <div>
             <div class="row align-items-start">
                 <div class="col">
-                    <p>Shortly</p>
+                    <p class="shortly-footer text-center">Shortly</p>
                 </div>
-                <div class="col">
-                    <p>Features</p>
+                <div class="col items-col">
+                    <p><b>Features</b></p>
                     <ul>
                         <li>Link Shortening</li>
                         <li>Branded Links</li>
                         <li>Analytics</li>
                     </ul>
                 </div>
-                <div class="col">
-                    <p>Resources</p>
+                <div class="col items-col">
+                    <p><b>Resources</b></p>
                     <ul>
                         <li>Blog</li>
                         <li>Developers</li>
                         <li>Support</li>
                     </ul>
                 </div>
-                <div class="col">
-                    <p>Company</p>
+                <div class="col items-col">
+                    <p><b>Company</b></p>
                     <ul>
-                        <li>About</li>
-                        <li>Our Team</li>
-                        <li>Careers</li>
-                        <li>Contact</li>
+                        <li><a>About</a></li>
+                        <li><a>Our Team</a></li>
+                        <li><a>Careers</a></li>
+                        <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col social-media">
                     <img src="./images/icon-facebook.svg" alt="">
                     <img src="./images/icon-twitter.svg" alt="">
                     <img src="./images/icon-pinterest.svg" alt="">
@@ -146,7 +164,9 @@
             </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

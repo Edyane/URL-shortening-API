@@ -70,7 +70,7 @@ h1 {
     background-color: #9BE3E2;
 }
 
-.shorten-section {
+.shorten-section {    
     margin-top: 90px;
 }
 
@@ -134,14 +134,41 @@ h1 {
     padding-right: 15px;
 }
 
+.advanced-section {
+    padding-top: 45px;
+    min-height: 280px;
+}
+
+h6 {
+    color: #36303C;
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.advanced-paragraph {    
+    color: #B2B1B7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    padding-top: 15px;
+    padding-bottom: 35px; 
+}
+
+.brand-recog-image {
+    background-color: #3A3053;
+    border-radius: 45px;
+    width: 50px;
+}
+
 .boost-section {
     background-color: #3A3053;
-    background-image: url(../images/bg-boost-desktop.svg);    
+    background-image: url(../images/bg-boost-desktop.svg);   
+    background-size: cover;
+    min-height: 200px;
 }
 
 .boost-title {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 35px;    
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
@@ -152,4 +179,17 @@ footer {
     background-color: #36303C;    
     color: #fff;
     padding-top: 30px;
+    min-height: 220px;
+}
+
+.shortly-footer {
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   font-weight: bold;  
+}
+
+.items-col {
+    font-family: 'Poppins', sans-serif;;
+    font-size: 14px;
+    line-height: 1.8rem;
 }
