@@ -155,9 +155,11 @@ h6 {
 }
 
 .brand-recog-image {
+    margin: 5px;
     background-color: #3A3053;
-    border-radius: 45px;
-    width: 50px;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
 }
 
 .boost-section {
@@ -192,4 +194,8 @@ footer {
     font-family: 'Poppins', sans-serif;;
     font-size: 14px;
     line-height: 1.8rem;
+}
+
+.social-media {
+    padding-right: 15px;
 }
