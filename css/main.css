@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+.body {
+    color: green;
+}
 .navbar-brand {
     color: #36303C;
     font-family: 'Roboto', sans-serif;
@@ -130,13 +133,10 @@ h1 {
     border-radius: 10px;
 }
 
-.test {
-    padding-right: 15px;
-}
-
 .advanced-section {
+    background-color: #F0F1F6;
     padding-top: 45px;
-    min-height: 280px;
+    min-height: 490px;
 }
 
 h6 {
@@ -147,19 +147,27 @@ h6 {
 }
 
 .advanced-paragraph {    
-    color: #B2B1B7;
+    color: #89898b;
     font-family: 'Poppins', sans-serif;
     font-size: 16px; 
+    font-weight: 500;   
     padding-top: 15px;
     padding-bottom: 35px; 
 }
 
-.brand-recog-image {
-    margin: 5px;
-    background-color: #3A3053;
-    color: white;
-    padding: 5px;
-    border-radius: 50%;
+h5 {
+    color: #36303C;
+}
+
+.advanced-col {
+    background-color: #ffffff; 
+    color: #89898b;  
+    margin: 30px;   
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: justify;     
+    min-width: 10px;
+    min-height: 180px; 
 }
 
 .boost-section {
